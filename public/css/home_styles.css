@@ -1,0 +1,36 @@
+#map { 
+	height: 500px;
+	width:600px;
+	margin:0 auto;
+	float: left;	/*align left*/
+}
+
+#tweets {
+	height: 500px;
+	width: 400px;
+	margin: 0px 0px 0px 20px;
+	float:left;
+	overflow: auto;
+	font: century;
+	font-size: 20px;
+	background-color: #D8D8D8;
+	color: #800000;
+}
+
+#tweets_header {
+	overflow: left;
+	margin:15px 100px 5px 120px;
+	font: century;
+	font-size: 30px;
+	/*width: 800px;*/
+	float: left;
+}
+
+#map_header {
+	overflow: left;
+	margin:15px 250px 5px 15px;
+	font: century;
+	font-size: 30px;
+	/*width: 800px;*/
+	float: left;
+}
