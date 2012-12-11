@@ -81,7 +81,7 @@ td {
 			<td><a href = "about"><div id="menubar">About</div></a></td>
 			<td><a href = "add"><div id="menubar">Add School</div></a></td>
 
-			<td><div style="margin-left:600px;"><a href = "cily/administer"><div id="menubar">Administer</div></a></div></td>
+			<td><div style="margin-left:600px;"><a href = "administer"><div id="menubar">Administer</div></a></div></td>
 		</tr>
 	</table>
 </div>
