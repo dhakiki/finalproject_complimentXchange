@@ -38,6 +38,7 @@ Route::get('/', function()
 });
 
 Route::controller('cily');
+//Route::controller('twitter');
 Route::controller('home');
 /*
 |--------------------------------------------------------------------------

@@ -1,36 +1,120 @@
 #map { 
-	height: 500px;
-	width:600px;
+	height: 300px;
+	width:627px;
 	margin:0 auto;
 	float: left;	/*align left*/
 }
 
 #tweets {
-	height: 500px;
-	width: 400px;
-	margin: 0px 0px 0px 20px;
 	float:left;
+	height:250px;
 	overflow: auto;
-	font: century;
-	font-size: 20px;
+	font-family:"Arial", Arial, sans-serif;
+	font-size: 15px;
 	background-color: #D8D8D8;
 	color: #800000;
+	margin-bottom: 8px;
+	padding-right: 10px;
 }
 
-#tweets_header {
-	overflow: left;
-	margin:15px 100px 5px 120px;
-	font: century;
-	font-size: 30px;
-	/*width: 800px;*/
-	float: left;
+table#top {
+	background-color: #8A0808;
+	margin-left:40px;
+	padding-left:30px;
+	padding-right: 30px;
 }
 
-#map_header {
-	overflow: left;
-	margin:15px 250px 5px 15px;
-	font: century;
-	font-size: 30px;
-	/*width: 800px;*/
-	float: left;
+td {
+	vertical-align: top;
 }
+
+#menubar {
+	background-color: #8A0808;
+	color: white;
+	font-family:"Arial", Arial, sans-serif;
+	font-size: 18px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;	
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+
+}
+#menubar:hover{
+	background-color: white;
+	color: #8A0808;
+}
+
+#pagebody {
+	background-color: #E6E6E6;
+	margin-left: 40px;
+	padding-left: 15px;
+	padding-top: 20px;
+	width: 1115px;
+	min-height: 750px;
+	font-family:"Arial", Arial, sans-serif;
+}
+
+#blurb {
+	padding: 15px 15px 15px 15px;
+	width: 380px;
+	color: black;
+	/*background-color: gray;*/
+	border-style:solid;
+border-width:5px;
+border-color:#333;
+background-color: white;
+}
+
+#mapblurb {
+	padding: 15px 15px 15px 15px;
+	color: white;
+	/*background-color: gray;*/
+	border-style:solid;
+border-width:5px;
+border-color:#333;
+background-color: #333;
+
+}
+
+.accordion {
+width:450px;
+font-family: arial;
+}
+
+.label {
+background-color: #333;
+color: white;
+padding:10px;
+border-bottom: 2px solid white;
+cursor:pointer;
+}
+
+.content {
+padding:15px;
+background-color: #ddd;
+}
+
+
+.active {
+background-color: #8A0808;
+}
+/*i added the inactive style for testing*/
+.inactive { 
+	background-color: black;
+}
+
+	#listing {
+		background-color: white;
+		width:375px;
+	/*	margin-top: 15px;
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-bottom: 15px;*/
+		
+		font: Century;
+		font-size: 13px;
+	}
